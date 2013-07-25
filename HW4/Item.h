@@ -6,12 +6,14 @@
 //  Copyright (c) 2013 Junwei Zhao. All rights reserved.
 //
 
+
+// This is the single node of data struteure
 #ifndef HW4_Item_h
 #define HW4_Item_h
 #include <stdlib.h>
 #include <iostream>
 
-static int maxKey = 100000;
+static int maxKey = 100000;  // the max key
 static int element = 100000;
 
 typedef int Key;
