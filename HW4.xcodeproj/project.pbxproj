@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B47E71B170DFEE600029974 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B47E71A170DFEE600029974 /* main.cpp */; };
+		5B47E71B170DFEE600029974 /* sequentialsearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B47E71A170DFEE600029974 /* sequentialsearch.cpp */; };
 		5B47E71D170DFEE600029974 /* HW4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B47E71C170DFEE600029974 /* HW4.1 */; };
+		5B47E727170E31B000029974 /* binarysearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B47E725170E31B000029974 /* binarysearch.cpp */; };
+		5B47E72B170E62A700029974 /* BSTexample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B47E729170E62A700029974 /* BSTexample.cpp */; };
+		5B47E72F170E892E00029974 /* redblackexample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B47E72D170E892E00029974 /* redblackexample.cpp */; };
+		5B47E735171080D800029974 /* TEST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B47E733171080D800029974 /* TEST.cpp */; };
+		5B47E7381710F3AF00029974 /* Test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B47E7361710F3AE00029974 /* Test2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +31,18 @@
 
 /* Begin PBXFileReference section */
 		5B47E717170DFEE600029974 /* HW4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW4; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B47E71A170DFEE600029974 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5B47E71A170DFEE600029974 /* sequentialsearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sequentialsearch.cpp; sourceTree = "<group>"; };
 		5B47E71C170DFEE600029974 /* HW4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HW4.1; sourceTree = "<group>"; };
+		5B47E723170E0A3700029974 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		5B47E724170E0D6700029974 /* LinkedlistST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedlistST.h; sourceTree = "<group>"; };
+		5B47E725170E31B000029974 /* binarysearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binarysearch.cpp; sourceTree = "<group>"; };
+		5B47E728170E5B9900029974 /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
+		5B47E729170E62A700029974 /* BSTexample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSTexample.cpp; sourceTree = "<group>"; };
+		5B47E72C170E753300029974 /* redblack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = redblack.h; sourceTree = "<group>"; };
+		5B47E72D170E892E00029974 /* redblackexample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = redblackexample.cpp; sourceTree = "<group>"; };
+		5B47E733171080D800029974 /* TEST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEST.cpp; sourceTree = "<group>"; };
+		5B47E734171080D800029974 /* TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
+		5B47E7361710F3AE00029974 /* Test2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +75,18 @@
 		5B47E719170DFEE600029974 /* HW4 */ = {
 			isa = PBXGroup;
 			children = (
-				5B47E71A170DFEE600029974 /* main.cpp */,
 				5B47E71C170DFEE600029974 /* HW4.1 */,
+				5B47E723170E0A3700029974 /* Item.h */,
+				5B47E724170E0D6700029974 /* LinkedlistST.h */,
+				5B47E71A170DFEE600029974 /* sequentialsearch.cpp */,
+				5B47E725170E31B000029974 /* binarysearch.cpp */,
+				5B47E728170E5B9900029974 /* BST.h */,
+				5B47E729170E62A700029974 /* BSTexample.cpp */,
+				5B47E72C170E753300029974 /* redblack.h */,
+				5B47E72D170E892E00029974 /* redblackexample.cpp */,
+				5B47E733171080D800029974 /* TEST.cpp */,
+				5B47E734171080D800029974 /* TEST.h */,
+				5B47E7361710F3AE00029974 /* Test2.cpp */,
 			);
 			path = HW4;
 			sourceTree = "<group>";
@@ -117,7 +142,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B47E71B170DFEE600029974 /* main.cpp in Sources */,
+				5B47E71B170DFEE600029974 /* sequentialsearch.cpp in Sources */,
+				5B47E727170E31B000029974 /* binarysearch.cpp in Sources */,
+				5B47E72B170E62A700029974 /* BSTexample.cpp in Sources */,
+				5B47E72F170E892E00029974 /* redblackexample.cpp in Sources */,
+				5B47E735171080D800029974 /* TEST.cpp in Sources */,
+				5B47E7381710F3AF00029974 /* Test2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +216,7 @@
 		5B47E721170DFEE600029974 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -193,6 +224,7 @@
 		5B47E722170DFEE600029974 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -216,6 +248,7 @@
 				5B47E722170DFEE600029974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
